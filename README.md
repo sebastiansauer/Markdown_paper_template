@@ -1,11 +1,13 @@
-Simple Markdown template for (student's term) papers
+# Simple Markdown template for (student's term) papers
 
 
-# What do I get here?
+## What do I get here?
 Here you will find a simple template, so that you can write your term paper, assignment, report, scientific journal paper, with [Markdown](https://daringfireball.net/projects/markdown/) but with getting a polished PDF-file spitted out (formatted using [Latex](https://www.latex-project.org)).
 
+See the file `paper.pdf` for an **example**.
 
-# So what's the idea?
+
+## So what's the idea?
 
 1. Write your stuff in a normal text file (ie. [Markdown](https://daringfireball.net/projects/markdown/)).
 2. Don't worry all about formatting, layout etc. (well, nearly).
@@ -14,7 +16,7 @@ Here you will find a simple template, so that you can write your term paper, ass
 4. When you call Pandoc, give the template provided here as an argument.
 
 
-# How does it help?
+## How does it help?
 - Get beautifully formatted PDF files.
 - You do not have to be familiar with Latex.
 - Focus on content, don't get distracted with formatting while writing.
@@ -27,7 +29,7 @@ Here you will find a simple template, so that you can write your term paper, ass
 - The software happily reside on Windows, Mac and Linux (I believe).
 
 
-# What software do I need?
+## What software do I need?
 
 - You need to have [Pandoc](http://pandoc.org) installed on your machine; [Markdown](https://daringfireball.net/projects/markdown/) comes with it.
 - For PDF-Output you need to have \LaTeX ([Tex](https://www.latex-project.org) installed.
@@ -37,7 +39,7 @@ Here you will find a simple template, so that you can write your term paper, ass
 So make sure you have the *software installed before* you use the templates provided here. Click the link for [Pandoc](http://pandoc.org); Markdown comes with it.
 
 
-# OK, I want to start. Now what?
+## OK, I want to start. Now what?
 
 1. Take the textfile boilerplate `paper.txt`. Write your content in it. 
 2. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
@@ -45,14 +47,14 @@ So make sure you have the *software installed before* you use the templates prov
 4. Look at `paper.pdf` to see the results.
 
 
-# Caveats
+## Caveats
 - Pandoc should be in your path variable so that you can call it from any folder.
 - Make sure you have the latest version of Pandoc.
-- Make sure you have the standard set of Latex packages installed (come with standard installation; huge in size)
--
+- Make sure you have the standard set of Latex packages installed (come with standard installation; huge in size).
 
 
-# Advanced
+
+## Advanced
 - Look at the [YAML](https://en.wikipedia.org/wiki/YAML) header file `header.yml`to tweak some defaults, such as
 	- font (size, family...)
 	- margins
@@ -63,11 +65,11 @@ So make sure you have the *software installed before* you use the templates prov
 	
 	
 	
-# Acknowledgements
+## Acknowledgements
 The template is based on [John MacFarlane's](http://johnmacfarlane.net) default template. Markdown has been developed by John Gruber (and others).
 
 
-# Licence
+## Licence
 - This work is licenced unser CC-BY-SA 3.0. 
 - [Markdown Licence](https://daringfireball.net/projects/markdown/license): Markdown is free software, available under the terms of a BSD-style open source license.
 - [Pandoc Licence)(http://pandoc.org/index.html): Pandoc is free software, released under the GPL. © 2006-2014 John MacFarlane.
