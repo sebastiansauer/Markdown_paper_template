@@ -1,0 +1,26 @@
+---
+title: "Titel der Arbeit:mit Doppelpunkt"
+subtitle: Ein schöner Subtitel
+referee: Prof. Dr. I. Weiß-Ois
+course: Seminararbeit im Fach Raketenwissenschaft
+field: Studiengang Sophismus
+author: Max Mustermann
+ID: "Matrikelnummer: 12345679"
+street: Meine Straße 1
+zipcity: 12345 Hausenhausen  
+date: 13\. Mai 2016
+graphics: 
+toc: true
+lof: true
+lot: true	
+lang: de-De
+bibliography: Literatur.bib
+logo: logo.png
+documentclass: scrartcl
+highlight-style: kate
+output:
+  pdf_document:
+    number_sections: true
+   	md_extensions: +simple_tables+mplicit_figures+link_attributes+backtick_code_blocks+yaml_metadata_block+multiline_tables
+---
+
