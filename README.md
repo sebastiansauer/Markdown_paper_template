@@ -37,8 +37,7 @@ See the file `paper.pdf` for an **example**.
 
 
 ## OK, I want to start. Now what?
-1. Take the textfile boilerplate `paper.txt`. Write your content in it. 
-2. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
+1. Take the textfile boilerplate `paper.txt`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
 3. Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this in Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
 4. Look at `paper.pdf` to see the results.
 
