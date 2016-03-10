@@ -1,6 +1,7 @@
 # Simple Markdown template for (student's term) papers
 
 
+
 ## What do I get here?
 Here you will find a simple template, so that you can write your term paper, assignment, report, scientific journal paper, with [Markdown](https://daringfireball.net/projects/markdown/) but with getting a polished PDF-file spitted out (formatted using [Latex](https://www.latex-project.org)).
 
@@ -8,7 +9,6 @@ See the file `paper.pdf` for an **example**.
 
 
 ## So what's the idea?
-
 1. Write your stuff in a normal text file (ie. [Markdown](https://daringfireball.net/projects/markdown/)).
 2. Don't worry all about formatting, layout etc. (well, nearly).
 3. Focus on content instead.
@@ -30,17 +30,13 @@ See the file `paper.pdf` for an **example**.
 
 
 ## What software do I need?
-
 - You need to have [Pandoc](http://pandoc.org) installed on your machine; [Markdown](https://daringfireball.net/projects/markdown/) comes with it.
 - For PDF-Output you need to have \LaTeX ([Tex](https://www.latex-project.org) installed.
-
 - Any simple text editor will do the job.
-
-So make sure you have the *software installed before* you use the templates provided here. Click the link for [Pandoc](http://pandoc.org); Markdown comes with it.
+- So make sure you have the *software installed before* you use the templates provided here. Click the link for [Pandoc](http://pandoc.org); Markdown comes with it.
 
 
 ## OK, I want to start. Now what?
-
 1. Take the textfile boilerplate `paper.txt`. Write your content in it. 
 2. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
 3. Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this in Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
@@ -51,7 +47,6 @@ So make sure you have the *software installed before* you use the templates prov
 - Pandoc should be in your path variable so that you can call it from any folder.
 - Make sure you have the latest version of Pandoc.
 - Make sure you have the standard set of Latex packages installed (come with standard installation; huge in size).
-
 
 
 ## Advanced
@@ -72,6 +67,6 @@ The template is based on [John MacFarlane's](http://johnmacfarlane.net) default 
 ## Licence
 - This work is licenced unser CC-BY-SA 3.0. 
 - [Markdown Licence](https://daringfireball.net/projects/markdown/license): Markdown is free software, available under the terms of a BSD-style open source license.
-- [Pandoc Licence)(http://pandoc.org/index.html): Pandoc is free software, released under the GPL. © 2006-2014 John MacFarlane.
+- [Pandoc Licence](http://pandoc.org/index.html): Pandoc is free software, released under the GPL. © 2006-2014 John MacFarlane.
 
 
