@@ -18,7 +18,7 @@ See the file `paper.pdf` for an **example**.
 
 ## How does it help?
 - Get beautifully formatted PDF files.
-- You do not have to be familiar with Latex.
+- You do not have to be familiar with [Latex](https://www.latex-project.org).
 - Focus on content, don't get distracted with formatting while writing.
 - No costs.
 - Open source.
@@ -56,7 +56,7 @@ See the file `paper.pdf` for an **example**.
 	- enable, disable TOC, List of figures/tables
 	- changes citation style (based on [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)).
 - See [Pandoc's excellent user guide for options](http://pandoc.org/README.html).
-- Have a look at the \LaTeX template and change it according to your needs, eg., you may wish to adapt the front page according to your needs.
+- Have a look at the TeX template and change it according to your needs, eg., you may wish to adapt the front page according to your needs.
 	
 	
 	
