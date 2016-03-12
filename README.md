@@ -23,22 +23,22 @@ See the file `paper.pdf` for an **example**.
 - No costs.
 - Open source.
 - No convuluted texts, no `|{}\\\\\` messing up your text.
-- No steep learning curve; while Pandoc is a command line tools, you will find that is are easy to use.
+- No steep learning curve; while Pandoc and friends are command line tools, you will find that is are easy to use.
 - Allows for transparency in writing your texts.
-- Allowd for including R-syntax (eg., with [knitr](https://github.com/yihui/knitr)).
+- Allows for including R-syntax (eg., with [knitr](https://github.com/yihui/knitr)).
 - The software happily reside on Windows, Mac and Linux (I believe).
 
 
 ## What software do I need?
 - You need to have [Pandoc](http://pandoc.org) installed on your machine; [Markdown](https://daringfireball.net/projects/markdown/) comes with it.
-- For PDF-Output you need to have \LaTeX ([Tex](https://www.latex-project.org) installed.
-- Any simple text editor will do the job.
+- For PDF-Output you need to have \LaTeX ([Tex](https://www.latex-project.org)) installed.
+- Take any text editor to write your paper.
 - So make sure you have the *software installed before* you use the templates provided here. Click the link for [Pandoc](http://pandoc.org); Markdown comes with it.
 
 
 ## OK, I want to start. Now what?
 1. Take the textfile boilerplate `paper.txt`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
-3. Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this in Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
+3. Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this on Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
 4. Look at `paper.pdf` to see the results.
 
 
@@ -46,6 +46,19 @@ See the file `paper.pdf` for an **example**.
 - Pandoc should be in your path variable so that you can call it from any folder.
 - Make sure you have the latest version of Pandoc.
 - Make sure you have the standard set of Latex packages installed (come with standard installation; huge in size).
+
+
+## Features
+Hey, all these features stem from Pandoc, Markdown, and Latex; this little template here just makes your live easier by drawing on these software. Basically, the template just sets some default values for you, so that you do not have to know so much about Latex and Pandoc. Thus, features include:
+
+- Beautifully formated pdf
+- flexibility in terms of output format (pdf, html, doc, beamer slides...)
+- citations
+- referenced figures/tables
+- table of contents/figures/tables
+- syntax highlighting
+- Latex support, so you can easily include equations
+- use knitr to knit your R-code
 
 
 ## Advanced
