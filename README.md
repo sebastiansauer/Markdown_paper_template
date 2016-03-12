@@ -34,11 +34,14 @@ See the file `paper.pdf` for an **example**.
 - For PDF-Output you need to have \LaTeX ([Tex](https://www.latex-project.org)) installed.
 - Take any text editor to write your paper.
 - So make sure you have the *software installed before* you use the templates provided here. Click the link for [Pandoc](http://pandoc.org); Markdown comes with it.
+- If you want to avoid command line usage, then install [knitr] (https://cran.r-project.org/web/packages/knitr/index.html) (R-Package)
 
 
 ## OK, I want to start. Now what?
 1. Take the textfile boilerplate `paper.txt`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
-3. Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this on Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
+3. WAY 1: COMAMAND LINE: Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this on Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
+
+  WAY 2: KNITR SYNTAX: Use the syntax provided in this file to bypass command line usage: `pandoc_knitr.R`. Run it; it loads the library `knitr`, and then executes a pandoc-wrapper (function `pandoc()`). The `pandoc`-function takes 3 arguments: source file, output format, and config file. The config file (`config.pandoc`) provides the pandoc parameters. Note: As far as I know, the knitr package does *not* support external [YAML](https://en.wikipedia.org/wiki/YAML)-header files. Thus, the [YAML](https://en.wikipedia.org/wiki/YAML) header must be places in the markdown file (as opposed to WAY 1, see above). 
 4. Look at `paper.pdf` to see the results.
 
 
