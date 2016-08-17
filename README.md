@@ -1,19 +1,19 @@
-# Simple Markdown template for (student's term) papers
+# Simple Markdown template for papers (eg., term assignments)
 
 
 
 ## What do I get here?
-Here you will find a simple template, so that you can write your term paper, assignment, report, scientific journal paper, with [Markdown](https://daringfireball.net/projects/markdown/) but with getting a polished PDF-file spitted out (formatted using [Latex](https://www.latex-project.org)).
+Here you will find a simple template, so that you can write your term paper, assignment, report, scientific journal paper, with easy [Markdown](https://daringfireball.net/projects/markdown/) but with getting a polished PDF-file spitted out (formatted using [Latex](https://www.latex-project.org)).
 
-See the file `paper.pdf` for an **example**.
+See the file `thesis.pdf` for an **example**.
 
 
 ## So what's the idea?
-1. Write your stuff in a normal text file (ie. [Markdown](https://daringfireball.net/projects/markdown/)).
-2. Don't worry all about formatting, layout etc. (well, nearly).
+1. Write your stuff in a normal text file (ie. [Markdown file](https://daringfireball.net/projects/markdown/)).
+2. Don't worry all about formatting, layout etc.
 3. Focus on content instead.
 3. Use [Pandoc](http://pandoc.org) to convert your textfile to PDF (or to DOCX or HTML etc).
-4. When you call Pandoc, give the template provided here as an argument.
+4. Formatting will take place automatically by the template provided here.
 
 
 ## How does it help?
@@ -34,15 +34,16 @@ See the file `paper.pdf` for an **example**.
 - For PDF-Output you need to have \LaTeX ([Tex](https://www.latex-project.org)) installed.
 - Take any text editor to write your paper.
 - So make sure you have the *software installed before* you use the templates provided here. Click the link for [Pandoc](http://pandoc.org); Markdown comes with it.
-- If you want to avoid command line usage, then install [knitr] (https://cran.r-project.org/web/packages/knitr/index.html) (R-Package)
-
+- [knitr] (https://cran.r-project.org/web/packages/knitr/index.html) (R-Package)
+- [RStudio](https://www.rstudio.com) makes things easier. Just press button to compile ("knit") your text file to nicely formatted output file.
 
 ## OK, I want to start. Now what?
-1. Take the textfile boilerplate `paper.txt`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
-3. WAY 1: COMAMAND LINE: Convert `paper.txt` to PDF by calling this file from command line (Terminal): `pandoc.make`, like this on Mac and Linux: `sh ./pandoc.make`. In Windows, delete the first line `#!/bin/sh`; then copy the rest to the command line (Terminal) or to a batch file (`.bat`), and run it.
+1. Take the textfile boilerplate `thesis.txt`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
 
-  WAY 2: KNITR SYNTAX: Use the syntax provided in this file to bypass command line usage: `pandoc_knitr.R`. Run it; it loads the library `knitr`, and then executes a pandoc-wrapper (function `pandoc()`). The `pandoc`-function takes 3 arguments: source file, output format, and config file. The config file (`config.pandoc`) provides the pandoc parameters. Note: As far as I know, the knitr package does *not* support external [YAML](https://en.wikipedia.org/wiki/YAML)-header files. Thus, the [YAML](https://en.wikipedia.org/wiki/YAML) header must be places in the markdown file (as opposed to WAY 1, see above). 
-4. Look at `paper.pdf` to see the results.
+Write your meta data (author, title, date...) in the first part of the document, the YAML header.
+
+2. In RStudio, hit the "knit" button. That's it!
+
 
 
 ## Caveats
@@ -69,7 +70,7 @@ Hey, all these features stem from Pandoc, Markdown, and Latex; this little templ
 	- font (size, family...)
 	- margins
 	- enable, disable TOC, List of figures/tables
-	- changes citation style (based on [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)).
+	- changes citation style (based on CSL).
 - See [Pandoc's excellent user guide for options](http://pandoc.org/README.html).
 - Have a look at the TeX template and change it according to your needs, eg., you may wish to adapt the front page according to your needs.
 	
@@ -80,7 +81,7 @@ The template is based on [John MacFarlane's](http://johnmacfarlane.net) default 
 
 
 ## Licence
-- This work is licenced unser CC-BY-SA 3.0. 
+- This work is licenced unser CC-BY-SA 4.0. 
 - [Markdown Licence](https://daringfireball.net/projects/markdown/license): Markdown is free software, available under the terms of a BSD-style open source license.
 - [Pandoc Licence](http://pandoc.org/index.html): Pandoc is free software, released under the GPL. © 2006-2014 John MacFarlane.
 

@@ -1,4 +1,30 @@
-
+---
+title: "Titel der Arbeit:mit Doppelpunkt"
+subtitle: Ein schöner Subtitel
+referee: Prof. Dr. I. Weiß-Ois
+course: Seminararbeit im Fach Raketenwissenschaft
+field: Studiengang Sophismus
+author: Max Mustermann
+ID: "Matrikelnummer: 12345679"
+street: Meine Straße 1
+zipcity: 12345 Hausenhausen  
+date: 13\. Mai 2016
+graphics: 
+toc: true
+lof: true
+lot: true	
+lang: de-De
+bibliography: Literatur.bib
+csl: apa.csl
+logo: logo.png
+documentclass: scrartcl
+highlight-style: kate
+output:
+  pdf_document:
+    number_sections: true
+    template: template_paper.tex
+    md_extensions: +simple_tables+implicit_figures+link_attributes+backtick_code_blocks+yaml_metadata_block+multiline_tables
+---
 
 
 # Einleitung 
@@ -89,19 +115,6 @@ Tabellen kann man von Hand erzeugen oder sich z.B. von R erstellen lassen. [Pand
       
 Table: So beschriftet man eine Tabelle am einfachsten
       
-
-Oder als Latex-Tabelle inkl. referenzierte Tabellenbeschriftung, s. Tabelle \ref{tab1}:
-
-\begin{table}[h!]
-\begin{tabular}{l|c||r}
-\hline
-x&y&234\\
-a&c&234\\
-\hline
-\end{tabular}
-\label{tab1}
-\caption{Tabellenbeschriftung}
-\end{table}
 
       
 
