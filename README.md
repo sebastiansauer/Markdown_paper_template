@@ -38,9 +38,9 @@ See the file `thesis.pdf` for an **example**.
 - [RStudio](https://www.rstudio.com) makes things easier. Just press button to compile ("knit") your text file to nicely formatted output file.
 
 ## OK, I want to start. Now what?
-1. Take the textfile boilerplate `thesis.txt`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
+1. Take the textfile boilerplate `thesis.Rmd`. Write your content in it. Use Pandoc's dialect of Markdown for basic formatting (header, lists, boldface...).
 
-Write your meta data (author, title, date...) in the first part of the document, the YAML header.
+2. Write your meta data (author, title, date...) in the first part of the document, the YAML header.
 
 2. In RStudio, hit the "knit" button. That's it!
 
