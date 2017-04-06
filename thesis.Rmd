@@ -6,7 +6,7 @@ output:
   pdf_document:
     number_sections: yes
     template: template_paper.tex
-csl: apa.csl
+csl: dgps.csl
 bibliography: Literatur.bib
 field: Studiengang Sophismus
 graphics: null
