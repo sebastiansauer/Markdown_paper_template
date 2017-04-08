@@ -51,7 +51,7 @@ See the file  `Markdown_Beispiel`for an very simple example, and `thesis.pdf` fo
 - Use RStudio.
 - RStudio assumes all input files are in the same directory as the .rmd-files.
 - Don't forget that you need LaTeX installed before you can convert to PDF.
-
+- Be sure to save all text files (including .rmd files) as UTF-8.
 
 ## Features
 Hey, all these features stem from Pandoc, Markdown, and Latex; this little template here just makes your live easier by drawing on these software. Basically, the template just sets some default values for you, so that you do not have to know so much about Latex and Pandoc. Thus, features include:
